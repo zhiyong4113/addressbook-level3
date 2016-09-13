@@ -45,9 +45,10 @@ Priority | As a ... | I want to ... | So that I can...
 `* * *` | user | add a new person |
 `* * *` | user | delete a person | remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
-`* *` | user | hide [private contact details](#private-contact-detail) by default | minimize chance of someone else seeing them by accident
-`*` | user with many persons in the address book | sort persons by name | locate a person easily
-
+`* *` 	| user | hide [private contact details](#private-contact-detail) by default | minimize chance of someone else seeing them by accident
+`*` 	| user with many persons in the address book | sort persons by name | locate a person easily
+`* *`	| user | edit a person's contact details | update the details whenever someone changes it
+`* *`	| user | have my searches auto-completed | search for the person even if I only remember a part of his name
 
 ## Appendix B : Use Cases
 
@@ -62,6 +63,18 @@ Priority | As a ... | I want to ... | So that I can...
 3. User requests to delete a specific person in the list
 4. AddressBook deletes the person <br>
 Use case ends.
+
+
+#### Use case: Rename existing tag
+
+**MSS**
+
+1. User requests to list peresons
+2. AddressBook shows a list of persons
+3. User requests to rename the existing tag of a specific person in the list
+4. AddressBook updates the tag of the person
+Use case ends.
+
 
 **Extensions**
 
@@ -80,6 +93,8 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
+5. Should be accessible offline.
+6. Should be instantaneous response.
 
 ## Appendix D : Glossary
 
