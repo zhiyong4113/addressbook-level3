@@ -17,4 +17,9 @@ public class IncorrectCommand extends Command{
         return new CommandResult(feedbackToUser);
     }
 
+	public boolean isMutating() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

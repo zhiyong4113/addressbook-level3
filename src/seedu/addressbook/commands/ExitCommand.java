@@ -16,4 +16,9 @@ public class ExitCommand extends Command {
         return new CommandResult(MESSAGE_EXIT_ACKNOWEDGEMENT);
     }
 
+	public boolean isMutating() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
