@@ -28,7 +28,7 @@ public class HelpCommand extends Command {
         return new CommandResult(MESSAGE_ALL_USAGES);
     }
 
-
+    @Override
 	public boolean isMutating() {
 		// TODO Auto-generated method stub
 		return false;
